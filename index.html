@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rui Zhang, AI master’s student at Tsinghua SIGS, working on video world models, controllable video generation, and physical simulation.">
+  <meta name="color-scheme" content="light">
+  <title>Rui Zhang · 张睿</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="language.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-zh="跳到正文">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap topbar">
+      <a class="brand" href="#main" data-zh="张睿">Rui Zhang</a>
+      <nav aria-label="Main navigation" data-zh-label="主导航">
+        <a href="#research" data-zh="研究">Research</a>
+        <a href="#work" data-zh="论文">Paper</a>
+        <a href="#experience" data-zh="经历">Experience</a>
+        <button class="lang" type="button" aria-label="显示中文" lang="zh-CN" hidden>中文</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="research" aria-labelledby="name">
+      <div class="wrap hero-grid">
+        <div class="profile">
+          <img class="portrait" src="assets/rui-zhang.jpg" width="307" height="460" alt="" fetchpriority="high">
+          <div class="identity">
+            <h1 id="name"><span data-zh="张睿">Rui Zhang</span></h1>
+            <p class="alternate-name" lang="zh-CN" data-zh="Rui Zhang" data-alt-name>张睿</p>
+            <p class="affiliation"><strong data-zh="人工智能硕士在读">Master’s student in AI</strong><br><span data-zh="清华大学深圳国际研究生院">Tsinghua Shenzhen International Graduate School</span></p>
+            <div class="actions profile-links">
+              <a class="button primary" href="mailto:zhangrui22@mails.tsinghua.edu.cn" data-zh="发邮件">Email me</a>
+              <a class="button secondary" href="https://github.com/zrui22">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <h2 class="research-title"><span data-zh="面向机器人交互的">Video world models</span> <span data-zh="视频世界模型">for robot interaction</span></h2>
+          <p class="summary" data-zh="当摩擦、支撑或物体属性改变时，同一个机器人动作会产生什么结果？我研究如何用视频模型预测这些结果，以及如何用程序和三维状态在仿真中检验预测。">How does the outcome of a robot’s action change with friction, support, or object properties? I study how video models can predict those outcomes and how programs and 3D state can help test the predictions in simulation.</p>
+          <div class="topics">
+            <ul aria-label="Research interests" data-zh-label="研究兴趣">
+              <li data-zh="动作条件视频预测">Action-conditioned video prediction</li>
+              <li data-zh="可控视频生成">Controllable video generation</li>
+              <li data-zh="物理仿真">Physical simulation</li>
+            </ul>
+          </div>
+          <div class="availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            <p data-zh="正在寻找世界模型方向的研究实习，也欢迎交流合作。">Seeking a research internship in world modeling and open to collaborations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section work" id="work" aria-labelledby="work-title">
+      <h2 id="work-title" data-zh="公开论文">Selected publication</h2>
+      <article class="publication">
+        <figure class="paper-figure">
+          <img src="assets/directfisheye.jpg" alt="Rendering comparison from Figure 1 of DirectFisheye-GS" data-zh-alt="DirectFisheye-GS 论文图 1 中的渲染对比" width="980" height="375" loading="lazy">
+          <figcaption data-zh="渲染对比，节选自论文图 1">Rendering comparison · cropped from Figure 1</figcaption>
+        </figure>
+        <div class="paper-content">
+          <p class="venue">CVPR 2026 <span>Highlight</span></p>
+          <h3>DirectFisheye-GS</h3>
+          <p class="paper-title" data-zh="通过跨视角联合优化，让高斯泼溅直接使用原生鱼眼图像">Enabling Native Fisheye Input in Gaussian Splatting with Cross-View Joint Optimization</p>
+          <p class="paper-role" data-zh="我负责可微鱼眼投影、CUDA 核心算子和重建对比实验。">I worked on differentiable fisheye projection, CUDA kernels, and reconstruction experiments.</p>
+          <div class="actions paper-links">
+            <a class="button secondary" href="https://openaccess.thecvf.com/content/CVPR2026/html/Yang_DirectFisheye-GS_Enabling_Native_Fisheye_Input_in_Gaussian_Splatting_with_Cross-View_CVPR_2026_paper.html" data-zh="论文 ↗">Paper ↗</a>
+            <a class="button secondary" href="https://arxiv.org/abs/2604.00648">arXiv <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="https://github.com/Metaverse-AI-Lab-THU/DirectFisheye-GS" data-zh="代码 ↗">Code ↗</a>
+          </div>
+        </div>
+      </article>
+      <p class="under-review"><strong data-zh="投稿中">Under review</strong><span data-zh="视频世界模型评测与具身仿真相关研究。">Research on video world-model evaluation and embodied simulation.</span></p>
+    </section>
+
+    <div class="career">
+      <div class="wrap section career-grid">
+        <section id="experience" aria-labelledby="experience-title">
+          <h2 id="experience-title" data-zh="实习经历">Research &amp; engineering experience</h2>
+          <ol class="timeline">
+            <li>
+              <p class="date" data-zh="2026 年 9 月至今">Sep 2026 – Present</p>
+              <div><h3 data-zh="深圳市未来清研智能科技有限公司">Future Qingyan Intelligence</h3>
+              <p class="role" data-zh="具身智能算法实习生">Embodied AI Intern</p>
+              <p data-zh="参与真机模型部署与联调，在仿真中将语言目标和深度观测转化为动态抓取后的避障轨迹。">Helped deploy models on real robots and developed motion planning in simulation that uses language goals and depth observations to avoid collisions after a dynamic grasp.</p></div>
+            </li>
+            <li>
+              <p class="date" data-zh="2026 年 6 月至 9 月">Jun – Sep 2026</p>
+              <div><h3 data-zh="阿里巴巴达摩院">Alibaba DAMO Academy</h3>
+              <p class="role" data-zh="仿真与具身数据研究实习生">Simulation &amp; Embodied Data Research Intern</p>
+              <p data-zh="构建可仿真的三维资产与程序化场景，参与碰撞建模、物性估计、跨仿真器导出与抓取验证。">Built simulation-ready 3D assets and procedural scenes, working on collision geometry, physical properties, simulator export, and grasp validation.</p></div>
+            </li>
+            <li>
+              <p class="date" data-zh="2025 年 11 月至 2026 年 4 月">Nov 2025 – Apr 2026</p>
+              <div><h3 data-zh="数美万物（Hitem3D）">Math Magic (Hitem3D)</h3>
+              <p class="role" data-zh="三维生成算法实习生">3D Generation Intern</p>
+              <p data-zh="参与图生 3D 模型后训练，引入多视图几何特征，并优化网格细化流程。">Worked on post-training for image-to-3D models, incorporated multi-view geometric features, and refined the mesh generation pipeline.</p></div>
+            </li>
+            <li>
+              <p class="date" data-zh="2025 年 7 月至 10 月">Jul – Oct 2025</p>
+              <div><h3>TELEai</h3>
+              <p class="role" data-zh="三维重建算法实习生">3D Reconstruction Intern</p>
+              <p data-zh="开发浏览器端三维重建展示与交互，参与大场景拼接和 Unreal Engine 交付。">Built an interactive browser viewer for 3D reconstructions and helped assemble large scenes for delivery in Unreal Engine.</p></div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="education" aria-labelledby="education-title">
+          <h2 id="education-title" data-zh="教育背景">Education</h2>
+          <ul>
+            <li>
+              <h3 data-zh="人工智能 · 硕士在读">Master’s in Artificial Intelligence</h3>
+              <p data-zh="清华大学深圳国际研究生院">Tsinghua SIGS</p>
+              <p class="date" data-zh="2026 年 9 月至今">Sep 2026 – Present</p>
+            </li>
+            <li>
+              <h3 data-zh="自动化 · 本科">Bachelor’s in Automation</h3>
+              <p data-zh="清华大学">Tsinghua University</p>
+              <p class="date" data-zh="2022 年 9 月至 2026 年 6 月">Sep 2022 – Jun 2026</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="wrap footer">
+    <p><strong>Rui Zhang · 张睿</strong><span data-zh="更新于 2026 年 11 月">Updated Nov 2026</span></p>
+    <a href="mailto:zhangrui22@mails.tsinghua.edu.cn">zhangrui22@mails.tsinghua.edu.cn</a>
+  </footer>
+</body>
+</html>
